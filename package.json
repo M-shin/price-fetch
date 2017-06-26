@@ -1,0 +1,22 @@
+{
+  "name": "price-fetch",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "description": "Application that fetches latest prices from various exchanges",
+  "main": "src",
+  "scripts": {
+    "lint": "gulp lint",
+    "start": "npm run lint && node ./src/app"
+  },
+  "author": "Michael Shin",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "lodash": "^4.17.4",
+    "sprintf-js": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-security": "^1.4.0",
+    "godaddy-test-tools": "^6.1.0",
+    "gulp": "^3.9.0"
+  }
+}
