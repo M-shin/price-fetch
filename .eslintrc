@@ -4,6 +4,7 @@
   rules: {
     // needed for node es6 / es5 hybrid
     strict: 0,
+    no-console: 0,
     generator-star-spacing: ["error", {"before": true, "after": true}],
     'security/detect-buffer-noassert': 'warn',
     'security/detect-child-process': 'warn',
